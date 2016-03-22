@@ -1,0 +1,25 @@
+package eg.edu.guc.yugioh.gui;
+
+import java.awt.Dimension;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class SpellButtons extends JButton {
+	private String LocationName;
+	
+	public SpellButtons()
+	{
+		super();
+		setLocationName(null);
+		//this.setPreferredSize(new Dimension(200, 300));
+	}
+
+	public String getLocationName() {
+		return LocationName;
+	}
+
+	public void setLocationName(String locationName) {
+		LocationName = locationName;
+	}
+	}
